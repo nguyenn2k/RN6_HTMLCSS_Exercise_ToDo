@@ -1,0 +1,76 @@
+body{
+    background-color: pink;
+}
+
+.container{
+    /* Chieu rong */
+    width: 400px;
+    /* Chieu cao */
+    height: 500px;
+    /*Display */
+    display: flex;
+    /* Mau ne */
+    background-color: white;
+    /* Bo tron cac goc */
+    border-radius: 5px;
+    /* Display */
+    display: flex;
+    /* Flex */
+    flex-direction: column;
+}
+.app-header{
+    display: flex;
+    /* Canh le giua cac thanh phan con trong flex */
+    justify-content: space-around;
+    /* Canh le */
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.task-count{
+    align-self: center;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    color: #f3f3f3;
+}
+/* Form */
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+}
+.form1{
+    /* Canh le */
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.form2{
+    /* Canh le */
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+label{
+    font-size: 20px;
+    font-weight: 100px;
+}
+.button{
+    margin-left: 135px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: white;
+}
+/* FOOTER */
+.footer{
+    display: flex;
+    /* Canh le giua cac thanh phan con trong flex */
+    justify-content: space-around;
+    /* Canh le */
+    padding-top: 155px;
+}
+input{
+    border-radius: 15px;
+    border-color: 1px solid white;
+}
